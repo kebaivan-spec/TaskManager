@@ -1,0 +1,1 @@
+# Task Manager\n\nНавчальний проєкт для Git Lab.
