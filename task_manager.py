@@ -4,7 +4,7 @@ while True:
 
     print("Task Manager")
     print("\n1 - Add task")
-    print("2 - Show tasks")
+    print("2 - Show task")
     print("3 - Exit")
     print("4 - Clear tasks")
 
