@@ -2,9 +2,11 @@ tasks = []
 
 while True:
 
+    print("Task Manager")
     print("\n1 - Add task")
     print("2 - Show tasks")
     print("3 - Exit")
+    print("4 - Clear tasks")
 
     choice = input("Choice: ")
 
@@ -14,6 +16,10 @@ while True:
 
     elif choice == "2":
         print(tasks)
+
+    elif choice == "4":
+        tasks.clear()
+        print("Tasks cleared")
 
     elif choice == "3":
         break
